@@ -1,0 +1,8 @@
+<?php
+ var_dump($argv);
+
+ $command = $argv[1];
+
+if($command == "serve"){
+    exec('php -S localhost:443');
+}
